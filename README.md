@@ -1,1 +1,1 @@
-# pizzalicious-hub
+# Pizzalicious Hub Co.
