@@ -9,6 +9,7 @@ import {
 } from "../../utils/helpers";
 import OrderItem from "./OrderItem";
 import { useEffect } from "react";
+import UpdateOrder from "./UpdateOrder";
 
 const Order = () => {
   const order = useLoaderData();
@@ -27,8 +28,6 @@ const Order = () => {
   useEffect(() => {
     if (!fetcher.data && fetcher.state === "idle") fetcher.load("/menu");
   }, [fetcher]);
-
-  console.log(fetcher.data);
 
   return (
     <div className="space-y-8 px-4 py-6">
@@ -85,6 +84,7 @@ const Order = () => {
           To pay on delivery: {formatCurrency(orderPrice + priorityPrice)}
         </p>
       </div>
+      {!priority && <UpdateOrder order={order} />}
     </div>
   );
 };
