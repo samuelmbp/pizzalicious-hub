@@ -3,12 +3,20 @@
 Pizzalicious is a user-friendly web application designed to simplify your pizza cravings. With Pizzalicious, ordering your favorite pizzas is a breeze - no accounts, no logins, just deliciousness at your fingertips.
 
 ## Getting Started
+
 To get started, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Run npm install to install the required dependencies.
-3. Run npm run dev to start the web server.
-4. Open your web browser and navigate to http://localhost:5173/ to access Pizzalicious App.
+2. Run `npm install` to install the required dependencies.
+3. Run `npm run dev` to start the web server.
+4. Open your web browser and navigate to `http://localhost:5173/` to access Pizzalicious App.
+
+## Technologies & Tools
+
+- JavaScript
+- React
+- Redux Toolkit
+- Tailwind CSS
 
 ## Using Pizzalicious: A Quick Guide
 
